@@ -1,0 +1,215 @@
+﻿第一部分：按要求到仓周直接发货的产品清单,,,,,,,,,,,,,,,,,,,,
+要求发货周 = 到仓周 − 8 周。有库存先发库存（先 FS 后 Stock planning，优先最早发货周），库存发货不生成补单；其余由 12 月生产，完工日不晚于要求发货周的周一。,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+要求到仓周,要求发货周,要求发货日,PRODUCT MASTER CODE,iLink Item Code,产品名称,中文描述,车间,Rank,发货数量,FFOB 单价 RMB,发货金额 RMB,发货来源,投产周,投产日,PLT（天）,完工日 EFD,预计发货周,预计发货日,是否按要求发货,后缀
+WK23,WK15,2027/01/04,CHIBA-WSU-0640-2D-HE,CHIBA-WSU-0640-2D-HE.2,Chichester 640 Undermount Washstand Only - Shell,奇切斯特640台下水盆架-贝壳白-加拿大橡木,B,AA,3,"1,738.89","5,217",库存发货（Stock planning）,,,,,WK15,2027/01/04,是,
+WK23,WK15,2027/01/04,SUFK-ACC-SHE-1500-DR,SUFK-ACC-SHE-1500-DR,Suffolk Shelf - 1500mm - Driftwood,萨福克1500搁板-浅褐色,B,BA,10,268.28,"2,683",库存发货（Stock planning）,,,,,WK15,2027/01/04,是,
+WK23,WK15,2027/01/04,SUFK-BAS-0920-DRW-DR,SUFK-BAS-0920-DRW-DR.2,Suffolk 920 4 Drawer Base Cabinet - Driftwood,萨福克920四抽屉底柜-浅褐色-加拿大橡木,B,AA,12,"2,780.75","33,369",库存发货（FS）,,,,,WK15,2027/01/04,是,
+WK23,WK15,2027/01/04,SUFK-FUL-0690-105-DR,SUFK-FUL-0690-105-DR.2,Suffolk 690 Full Height Double Appliance Cabinet - Driftwood,萨福克690双电器高柜-浅褐色-加拿大橡木,B,AA,8,"2,889.30","23,114",库存发货（Stock planning）,,,,,WK15,2027/01/04,是,
+WK23,WK15,2027/01/04,SUFK-FUL-1100-LAR-DR,SUFK-FUL-1100-LAR-DR.1,Suffolk 1100 Full Height Larder Cabinet - Driftwood,萨福克1100食品橱高柜-浅褐色-加拿大橡木,B,AA,1,"5,998.31","5,998",库存发货（Stock planning）,,,,,WK15,2027/01/04,是,
+WK23,WK15,2027/01/04,SUFK-KFI-2700-COR-DR,SUFK-KFI-2700-COR-DR.2,Suffolk 2700 Cornice - Driftwood,萨福克2700屋檐线-浅褐色,B,AA,50,234.59,"11,730",库存发货（Stock planning）,,,,,WK15,2027/01/04,是,
+WK23,WK15,2027/01/04,ALE-STO-PO-PO,ALE-STO-PO-PO.4,Alex Stool - Heavyweight Linen Pale Oat - IN Legs,艾利克斯凳子-帕莱燕麦-自然橡木色,C,AA,12,566.74,"6,801",生产,WK12,2026/12/16,14,2026/12/30,WK15,2027/01/04,是,B
+WK23,WK15,2027/01/04,ART-STO-80-COT-LIN-NA-PO,ART-STO-80-COT-LIN-NA-PO,Arthur Stool Large - Cotton Linen Natural - Natural Oak,,C,CC,15,809.08,"12,136",生产,WK13,2026/12/21,14,2027/01/04,WK15,2027/01/04,是,A
+WK23,WK15,2027/01/04,CHIB-FRM-135-HE,CHIB-FRM-135-HE.1,Chichester 135 Double Bed Frame - Centre and Side Rails,奇切斯特135矮床尾-中撑和边板和床尾,A,AA,2,"1,435.65","2,871",生产,WK12,2026/12/14,21,2027/01/04,WK15,2027/01/04,是,D
+WK23,WK15,2027/01/04,CHIBA-BAS-0375-3DW-HE,CHIBA-BAS-0375-3DW-HE.2,Chichester 375 3 Drawer Base Cabinet - Shell,奇切斯特375三抽底柜-贝壳白-DTC,B,CC,2,"1,358.70","2,717",生产,WK11,2026/12/11,21,2027/01/01,WK15,2027/01/04,是,F
+WK23,WK15,2027/01/04,CHIBA-SKT-2700-HE,CHIBA-SKT-2700-HE.Q,Chichester 2.7m Bathroom Skirting - Shell,奇切斯特2700裙板-贝壳白,B,CA,20,136.06,"2,721",生产,WK13,2026/12/21,14,2027/01/04,WK15,2027/01/04,是,A
+WK23,WK15,2027/01/04,CHIBA-WSU-0960-2DC-HE,CHIBA-WSU-0960-2DC-HE.2,Chichester 960 Undermount Curved Washstand Only - Shell,奇切斯特960弧形台下水盆架-贝壳白-DTC,B,AA,12,"3,706.82","44,482",生产,WK10（提前）,2026/11/30,35,2027/01/04,WK15,2027/01/04,是,A
+WK23,WK15,2027/01/04,CHIBA-WSU-1240-4D-HE,CHIBA-WSU-1240-4D-HE.3,Chichester 1240 Undermount D-Door Washstand Only - Shell,奇切斯特1240四门台下水盆架-贝壳白-加拿大橡木,B,AA,15,"2,821.60","42,324",生产,WK11,2026/12/09,24,2027/01/02,WK15,2027/01/04,是,G
+WK23,WK15,2027/01/04,EDIB-WSU-1000-OP-VO,EDIB-WSU-1000-OP-VO.4,Edinburgh 1000 Undermount Open Washstand with Basin - VO,爱丁堡1000开放式水盆架-浅仿古-加拿大橡木,A,AA,2,"2,166.60","4,333",生产,WK11,2026/12/11,24,2027/01/04,WK15,2027/01/04,是,H
+WK23,WK15,2027/01/04,EDIB-WSU-1490-VO,EDIB-WSU-1490-VO.1,Edinburgh 1490 Dbl Undermount Washstand with Basin-D-Door-VO,爱丁堡1490双盆封闭式水盆架-浅仿古-加拿大橡木,A,AB,4,"3,763.54","15,054",生产,WK11,2026/12/11,24,2027/01/04,WK15,2027/01/04,是,H
+WK23,WK15,2027/01/04,ELO-OTT-COT-LIN-NA,ELO-OTT-COT-LIN-NA,Eloise Ottoman - Cotton Linen Natural,,C,CC,10,938.85,"9,389",生产,WK13,2026/12/21,14,2027/01/04,WK15,2027/01/04,是,A
+WK23,WK15,2027/01/04,FRO-SML-DRW-IN,FRO-SML-DRW-IN,Frome Small Chest of Drawers - Natural Oak - £995,弗罗姆750x450边桌-自然橡木色-加拿大橡木,A,AA,30,"1,926.18","57,785",生产,WK11,2026/12/07,28,2027/01/04,WK15,2027/01/04,是,H
+WK23,WK15,2027/01/04,FRO-WDB-ORI-IN,FRO-WDB-ORI-IN,Frome Original Wardrobe - Natural Oak - £2295,弗罗姆双门大衣柜-自然橡木色-加拿大橡木,A,BB,3,"5,605.41","16,816",生产,WK10（提前）,2026/11/30,35,2027/01/04,WK15,2027/01/04,是,A
+WK23,WK15,2027/01/04,KCB-PAN-900-HE,KCB-PAN-900-HE.2,Chichester 900 Pan Drawer Base Cabinet - Shell,奇切斯特900平底锅抽屉柜-贝壳白-DTC,A,AA,29,"2,164.43","62,768",生产,WK11,2026/12/09,24,2027/01/02,WK15,2027/01/04,是,G
+WK23,WK15,2027/01/04,LAR-DRS-SL,LAR-DRS-SL.1,Larsson Dressing Table - Antique Salt,拉尔森梳妆台-盐白,A,AA,16,"1,235.12","19,762",生产,WK11,2026/12/11,24,2027/01/04,WK15,2027/01/04,是,H
+WK23,WK15,2027/01/04,LAR-DRW-3LOW-SL,LAR-DRW-3LOW-SL.Q,Larsson Low Chest of Drawers - Antique Salt,拉尔森矮抽屉柜-盐白,A,AA,18,"1,838.04","33,085",生产,WK11,2026/12/11,24,2027/01/04,WK15,2027/01/04,是,H
+WK23,WK15,2027/01/04,LAR-DRW-5TAL-SL,LAR-DRW-5TAL-SL.Q,Larsson Tall Chest of Drawers - Antique Salt,拉尔森五斗柜-盐白,A,AA,6,"2,618.79","15,713",生产,WK11,2026/12/11,24,2027/01/04,WK15,2027/01/04,是,H
+WK23,WK15,2027/01/04,LAR-WDB-ORI-1040-SL,LAR-WDB-ORI-1040-SL.2,Larsson Original Wardrobe,拉尔森双门大衣柜-提升-加拿大橡木,A,AA,1,"4,473.14","4,473",生产,WK10（提前）,2026/11/30,35,2027/01/04,WK15,2027/01/04,是,A
+WK23,WK15,2027/01/04,LOI-SOF3-BOU-FOR-IN,LOI-SOF3-BOU-FOR-IN,Louis 3-Seater Sofa - Boucle Forest - Natural Oak,,C,CC,1,"3,674.53","3,675",生产,WK13,2026/12/21,14,2027/01/04,WK15,2027/01/04,是,A
+WK23,WK15,2027/01/04,MLO-STO-BRNDL-02,MLO-STO-BRNDL-02,Milo Stool - Tan Leather,麦洛圆凳-新款复古深棕色牛皮,C,AA,1,456.72,457,生产,WK12,2026/12/18,14,2027/01/01,WK15,2027/01/04,是,C
+WK23,WK15,2027/01/04,MOW-CHA-HUGSP-IN,MOW-CHA-HUGSP-IN,Mowbray Dining Chair Heavyweight Linen Spelt - Natural Oak,莫布雷餐椅-斯佩特-自然橡木色,C,AA,12,546.58,"6,559",生产,WK11,2026/12/07,14,2026/12/21,WK15,2027/01/04,是,A
+WK23,WK15,2027/01/04,OPH-STO-LRG-ADFT,OPH-STO-LRG-ADFT,Ophelia Footstool Large - Adilene Jute Stripe Forest,,A,CC,2,"2,563.70","5,127",生产,WK13,2026/12/21,14,2027/01/04,WK15,2027/01/04,是,A
+WK23,WK15,2027/01/04,OPH-STO-SML-ADFT,OPH-STO-SML-ADFT,Ophelia Footstool Small - Adilene Jute Stripe Forest,,A,CC,5,"1,761.86","8,809",生产,WK13,2026/12/21,14,2027/01/04,WK15,2027/01/04,是,A
+WK23,WK15,2027/01/04,SHO-SOF2-03-BOU-ECRU-IN,SHO-SOF2-03-BOU-ECRU-IN,Shoreditch 2.0 - Small - 2-Seater Sofa - Boucle,肖迪奇沙发2-03-毛圈布米白色-自然橡木色,C,AA,1,"2,890.32","2,890",生产,WK11,2026/12/09,14,2026/12/23,WK15,2027/01/04,是,B
+WK23,WK15,2027/01/04,SHO-SOF3-03-BOU-ECRU-IN,SHO-SOF3-03-BOU-ECRU-IN,Shoreditch 2.0 - Large - 3-Seater Sofa - Boucle,肖迪奇沙发3-03-毛圈布米白色-自然橡木色,C,AA,1,"3,510.59","3,511",生产,WK12,2026/12/14,14,2026/12/28,WK15,2027/01/04,是,A
+WK23,WK15,2027/01/04,SUFK-BAS-0920-DRW-DR,SUFK-BAS-0920-DRW-DR.2,Suffolk 920 4 Drawer Base Cabinet - Driftwood,萨福克920四抽屉底柜-浅褐色-加拿大橡木,B,AA,8,"2,780.75","22,246",生产,WK12,2026/12/14,21,2027/01/04,WK15,2027/01/04,是,D
+WK24,WK16,2027/01/11,KCWM-2DS-855-HE,KCWM-2DS-855-HE.2,Chichester 855 2 Door Wall Cabinet - Shell,奇切斯特855双门壁柜-贝壳白-加拿大橡木,B,AA,16,"1,155.67","18,491",库存发货（Stock planning）,,,,,WK16,2027/01/11,是,
+WK24,WK16,2027/01/11,SUFK-BAS-0600-SDR-DR,SUFK-BAS-0600-SDR-DR.2,Suffolk 600 1 Door Base Cabinet - Right - Driftwood,萨福克600单门右底柜-浅褐色-加拿大橡木,B,AA,4,"1,384.15","5,537",库存发货（Stock planning）,,,,,WK16,2027/01/11,是,
+WK24,WK16,2027/01/11,SUFK-BAS-0990-DDD-DR,SUFK-BAS-0990-DDD-DR.1,Suffolk 990 2 Door 1 Drawer Base Cabinet - Driftwood,萨福克990两门一抽屉底柜-浅褐色-加拿大橡木,B,AA,11,"1,904.02","20,944",库存发货（Stock planning）,,,,,WK16,2027/01/11,是,
+WK24,WK16,2027/01/11,SUFK-FUL-0690-LDR-DR,SUFK-FUL-0690-LDR-DR.1,Suffolk 690 Full Height Larder Cabinet - Right - Driftwood,萨福克690食品橱右高柜-浅褐色-加拿大橡木,B,AB,4,"3,963.45","15,854",库存发货（Stock planning）,,,,,WK16,2027/01/11,是,
+WK24,WK16,2027/01/11,SUFK-FUL-1100-FS-LAR-DR,SUFK-FUL-1100-FS-LAR-DR.1,Suffolk 1100 Full Height Freestanding Larder - Driftwood,萨福克1100餐厅食品高柜-浅褐色-加拿大橡木,B,AA,6,"7,059.36","42,356",库存发货（Stock planning）,,,,,WK16,2027/01/11,是,
+WK24,WK16,2027/01/11,SUFK-KFI-2600-SKI-DR,SUFK-KFI-2600-SKI-DR,Suffolk 2600 Skirting - Driftwood,萨福克2600墙角线-浅褐色,B,AA,15,113.27,"1,699",库存发货（Stock planning）,,,,,WK16,2027/01/11,是,
+WK24,WK16,2027/01/11,ARUD-BEN-150,ARUD-BEN-150.4,Arundel 150 Bench - Natural Oak,阿伦德尔150长凳-小号-夹心腿-加拿大橡木,A,AA,2,"1,003.83","2,008",生产,WK13,2026/12/21,21,2027/01/11,WK16,2027/01/11,是,E
+WK24,WK16,2027/01/11,ARUD-CUS-150-COT-LIN-NA,ARUD-CUS-150-COT-LIN-NA,Arundel Bench Cushion Small - Cotton Linen Natural,,C,CC,14,274.62,"3,845",生产,WK13,2026/12/23,14,2027/01/06,WK16,2027/01/11,是,B
+WK24,WK16,2027/01/11,ARUD-TAB-COF-120,BATT-TAB-RND-150-IN.1,Arundel Coffee Table,阿伦德尔120咖啡桌-加拿大橡木-自然橡木色,A,AB,20,"1,766.40","35,328",生产,WK12,2026/12/18,24,2027/01/11,WK16,2027/01/11,是,I
+WK24,WK16,2027/01/11,BATT-TAB-245-IN,BATT-TAB-245-IN,"Battersea 8 Seater Dining Table, Natural Oak",巴特西245长方桌-自然橡木色-加拿大橡木,A,AA,3,"3,203.25","9,610",生产,WK11,2026/12/07,35,2027/01/11,WK16,2027/01/11,是,J
+WK24,WK16,2027/01/11,BATT-TAB-RND-150-IN,BATT-TAB-RND-150-IN.1,"Battersea Round Dining Table, Natural Oak",巴特西150圆桌-自然橡木色-加拿大橡木,A,BB,2,"2,809.29","5,619",生产,WK11,2026/12/07,35,2027/01/11,WK16,2027/01/11,是,J
+WK24,WK16,2027/01/11,CHAL-TAB-SID-0450-DO,CHAL-TAB-SID-0450-DO,Chalford Side Table Darkened Oak,查尔福德边桌-新深褐色-加拿大橡木,A,BA,34,475.00,"16,150",生产,WK12,2026/12/14,28,2027/01/11,WK16,2027/01/11,是,I
+WK24,WK16,2027/01/11,CHAL-TAB-SID-0450-IN,CHAL-TAB-SID-0450-IN,Chalford Side Table Natural Oak,查尔福德边桌-自然橡木色-加拿大橡木,A,AA,2,475.00,950,生产,WK12,2026/12/14,28,2027/01/11,WK16,2027/01/11,是,I
+WK24,WK16,2027/01/11,CHI-BED-150B-HE,CHI-BED-150B-HE.1,Chichester 150 King Bed Base - Shell,奇切斯特150床体-贝壳白,A,AA,6,"1,664.64","9,988",生产,WK13,2026/12/21,21,2027/01/11,WK16,2027/01/11,是,E
+WK24,WK16,2027/01/11,CHIB-FRM-090-HE,CHIB-FRM-090-HE.1,Chichester 90 Single Bed Frame - Centre and Side Rails,奇切斯特90矮床尾-中撑和边板和床尾,A,AA,2,"1,024.69","2,049",生产,WK13,2026/12/21,21,2027/01/11,WK16,2027/01/11,是,E
+WK24,WK16,2027/01/11,CHIB-FRM-180-HE,CHIB-FRM-180-HE.1,Chichester 180 Superking Bed Frame - Centre and Side Rails,奇切斯特180矮床尾-中撑和边板和床尾,A,AA,1,"1,586.69","1,587",生产,WK12,2026/12/18,21,2027/01/08,WK16,2027/01/11,是,G
+WK24,WK16,2027/01/11,CHIB-HB-150L-HE,CHIB-HB-150L-HE.2,Chichester 150 King Wooden Headboard - Shell,奇切斯特150矮床尾实木床头-贝壳白,A,BA,3,"1,093.57","3,281",生产,WK12,2026/12/18,21,2027/01/08,WK16,2027/01/11,是,G
+WK24,WK16,2027/01/11,EDID-BEN-1200-VO,EDID-BEN-1200-VO.3,Edinburgh 1200 Bootroom Bench - Vintage Oak,爱丁堡120长凳-浅仿古色-加拿大橡木,A,AA,4,"1,213.32","4,853",生产,WK12,2026/12/18,21,2027/01/08,WK16,2027/01/11,是,G
+WK24,WK16,2027/01/11,EDIL-TAB-COF-110,EDIL-TAB-COF-110.3,Edinburgh 110 Rectangular Coffee Table - Oak,爱丁堡110咖啡桌-加拿大橡木,A,AA,5,"1,594.10","7,971",生产,WK13,2026/12/21,21,2027/01/11,WK16,2027/01/11,是,E
+WK24,WK16,2027/01/11,EDIL-TAB-COF-SQU-110,EDIL-TAB-COF-SQU-110.2,Edinburgh 110 Square Coffee Table - Vintage Oak,爱丁堡110方咖啡桌-浅仿古-加拿大橡木,A,AA,27,"2,191.74","59,177",生产,WK13,2026/12/21,21,2027/01/11,WK16,2027/01/11,是,E
+WK24,WK16,2027/01/11,EDIL-TAB-LAM-042,EDIL-TAB-LAM-042.3,Edinburgh 42 Square Lamp Table - Oak,爱丁堡正方形42灯桌-加拿大橡木,A,AA,13,731.83,"9,514",生产,WK13,2026/12/21,21,2027/01/11,WK16,2027/01/11,是,E
+WK24,WK16,2027/01/11,EDIL-TAB-LAM-070,EDIL-TAB-LAM-070.3,Edinburgh 70 Rectangular Lamp Table - Oak,爱丁堡矩形70灯桌-加拿大橡木,A,AA,8,805.09,"6,441",生产,WK12,2026/12/18,21,2027/01/08,WK16,2027/01/11,是,G
+WK24,WK16,2027/01/11,FRO-TAB-COF-120,FRO-TAB-COF-120.1,Frome 120 Rectangular Coffee Table - Warm Black Oak,弗罗姆120X70咖啡桌-暖黑色-加拿大橡木,A,BB,10,"1,640.83","16,408",生产,WK12,2026/12/14,28,2027/01/11,WK16,2027/01/11,是,I
+WK24,WK16,2027/01/11,FRO-TAB-COF-120-IN,FRO-TAB-COF-120-IN,Frome 120 Rectangular Coffee Table - Natural Oak,弗罗姆120X70咖啡桌-自然橡木色-加拿大橡木,A,AA,3,"1,568.03","4,704",生产,WK12,2026/12/16,24,2027/01/09,WK16,2027/01/11,是,H
+WK24,WK16,2027/01/11,FRO-TAB-LAM-IN,FRO-TAB-LAM-IN,Frome Side Table - Natural Oak,弗罗姆边柜-自然橡木色-加拿大橡木,A,AA,20,"1,090.30","21,806",生产,WK12,2026/12/16,24,2027/01/09,WK16,2027/01/11,是,H
+WK24,WK16,2027/01/11,FRO-TAB-LAM-WBO,FRO-TAB-LAM-WBO,Frome Side Table - Warm Black Oak,弗罗姆边柜-暖黑-加拿大橡木,A,AA,5,"1,135.90","5,680",生产,WK12,2026/12/14,28,2027/01/11,WK16,2027/01/11,是,I
+WK24,WK16,2027/01/11,HENL-TAB-COF-120,HENL-TAB-COF-120.6,Henley 120 Rectangular Coffee Table - Oak,亨利120咖啡桌-加拿大橡木,A,BB,4,"1,357.38","5,430",生产,WK12,2026/12/16,21,2027/01/06,WK16,2027/01/11,是,E
+WK24,WK16,2027/01/11,HENL-TAB-SID-060,HENL-TAB-SID-060.6,Henley 60 Round Side Table - Oak,亨利60白橡圆桌-加拿大橡木,A,AA,30,791.30,"23,739",生产,WK13,2026/12/21,21,2027/01/11,WK16,2027/01/11,是,E
+WK24,WK16,2027/01/11,INT-CHA-CUS-SUF-COT-LIN-NA,INT-CHA-CUS-SUF-COT-LIN-NA,Suffolk/Harrogate Chair Cushion - Cotton Linen Natural,,C,CC,12,89.65,"1,076",生产,WK13,2026/12/25,14,2027/01/08,WK16,2027/01/11,是,C
+WK24,WK16,2027/01/11,KCB-DBI-0465-HE,KCB-DBI-0465-HE.5,Chichester 465 Double Bin Cabinet - Shell,奇切斯特465双垃圾桶底柜-贝壳白,A,AA,4,"1,514.28","6,057",生产,WK12,2026/12/16,24,2027/01/09,WK16,2027/01/11,是,H
+WK24,WK16,2027/01/11,KCB-PUL-275-HE,KCB-PUL-275-HE.2,Chichester 275 Pullout Base Cabinet - Shell,奇切斯特275推拉底柜-贝壳白-DTC,A,AA,1,"1,096.26","1,096",生产,WK12,2026/12/18,24,2027/01/11,WK16,2027/01/11,是,I
+WK24,WK16,2027/01/11,KCWM-2DS-855-HE,KCWM-2DS-855-HE.2,Chichester 855 2 Door Wall Cabinet - Shell,奇切斯特855双门壁柜-贝壳白-加拿大橡木,B,AA,14,"1,155.67","16,179",生产,WK11,2026/12/11,21,2027/01/01,WK16,2027/01/11,是,F
+WK24,WK16,2027/01/11,LOI-SOF2-BOU-FOR-IN,LOI-SOF2-BOU-FOR-IN,Louis 2-Seater Sofa - Boucle Forest - Natural Oak,,C,CC,21,"3,157.43","66,306",生产,WK14,2026/12/28,14,2027/01/11,WK16,2027/01/11,是,A
+WK24,WK16,2027/01/11,LRK-DRI-TRO-VO,LRK-DRI-TRO-VO,Larkhall Drinks Trolley - Natural Oak,,A,CC,32,"1,651.00","52,832",生产,WK12,2026/12/14,28,2027/01/11,WK16,2027/01/11,是,I
+WK24,WK16,2027/01/11,SUFK-BAS-0990-DDD-DR,SUFK-BAS-0990-DDD-DR.1,Suffolk 990 2 Door 1 Drawer Base Cabinet - Driftwood,萨福克990两门一抽屉底柜-浅褐色-加拿大橡木,B,AA,17,"1,904.02","32,368",生产,WK13,2026/12/21,21,2027/01/11,WK16,2027/01/11,是,E
+WK24,WK16,2027/01/11,SUFK-FUL-1100-FS-LAR-DR,SUFK-FUL-1100-FS-LAR-DR.1,Suffolk 1100 Full Height Freestanding Larder - Driftwood,萨福克1100餐厅食品高柜-浅褐色-加拿大橡木,B,AA,1,"7,059.36","7,059",生产,WK11,2026/12/07,35,2027/01/11,WK16,2027/01/11,是,J
+WK24,WK16,2027/01/11,THY-PLA-STD-DO,THY-PLA-STD-DO.1,Thornbury Plant Stand- Darkened Oak,桑伯里植物架-新深褐色-加拿大橡木,A,CA,27,375.00,"10,125",生产,WK12,2026/12/16,24,2027/01/09,WK16,2027/01/11,是,H
+WK24,WK16,2027/01/11,THY-TAB-SID-0450-IN,THY-TAB-SID-0450-IN,Thornbury Side Table Natural Oak,桑伯里边桌-自然橡木色-加拿大橡木,A,BA,39,410.00,"15,990",生产,WK12,2026/12/14,28,2027/01/11,WK16,2027/01/11,是,I
+WK24,WK16,2027/01/11,WAL-BED-150B-IN,WAL-BED-150B-IN.1,Walton Four Poster Bed Frame - King - Natural Oak,沃尔顿150床体-自然橡木-不含床头-加拿大橡木,A,AA,4,"2,503.35","10,013",生产,WK12,2026/12/18,24,2027/01/11,WK16,2027/01/11,是,I
+WK24,WK16,2027/01/11,WAL-BED-180B-IN,WAL-BED-180B-IN.1,Walton Four Poster Bed Frame - Super King - Natural Oak,沃尔顿180床体-自然橡木-不含床头-加拿大橡木,A,AA,4,"2,576.86","10,307",生产,WK12,2026/12/18,24,2027/01/11,WK16,2027/01/11,是,I
+WK24,WK16,2027/01/11,WAL-BED-HEA-150-HUGPO,WAL-BED-HEA-150-HUGPO.1,Walton Four Poster Headboard - King - Heavy Lin Pale Oat,沃尔顿150床-包布床头-帕莱燕麦-加拿大橡木,A,BA,3,676.46,"2,029",生产,WK14,2026/12/28,14,2027/01/11,WK16,2027/01/11,是,A
+WK25,WK17,2027/01/18,BTN-ISL-1700-IN,BTN-ISL-1700-IN.1,Borough Freestanding Kitchen Island Base - Natural Oak,伯顿独立厨房岛柜-自然橡木-加拿大橡木,B,AA,2,"3,194.76","6,390",库存发货（FS）,,,,,WK17,2027/01/18,是,
+WK25,WK17,2027/01/18,BUC-HOO-2605,BUC-HOO-2605.1,Buckland Cooker Hood,巴克兰2605炊具罩顶柜-加拿大橡木,B,BC,4,"2,489.62","9,958",库存发货（Stock planning）,,,,,WK17,2027/01/18,是,
+WK25,WK17,2027/01/18,KCB-1D-350-L-HE,KCB-1D-350-L-HE.1,Chichester 350 1 Door Base Cabinet Left - Shell,奇切斯特350单门左底柜-贝壳白,A,AA,9,931.05,"8,379",库存发货（Stock planning）,,,,,WK17,2027/01/18,是,
+WK25,WK17,2027/01/18,KCB-1DW1-500-L-HE,KCB-1DW1-500-L-HE.1,Chichester 500 1 Door 1 Drawer Base Cabinet Left - Shell,奇切斯特500单门单抽左底柜-贝壳白,A,AA,7,"1,234.94","8,645",库存发货（Stock planning）,,,,,WK17,2027/01/18,是,
+WK25,WK17,2027/01/18,KCB-BSP-0560-HE,KCB-BSP-0560-HE.Q,Chichester 560 Base Cabinet Support Panel - Shell,奇切斯特560底柜支架面板-贝壳白,A,AA,6,187.97,"1,128",库存发货（Stock planning）,,,,,WK17,2027/01/18,是,
+WK25,WK17,2027/01/18,KCB-TR-190-HE,KCB-TR-190-HE.Q,Chichester 190 Tray Rack Base Cabinet - Shell,奇切斯特190托盘架底柜-贝壳白,A,BA,4,569.44,"2,278",库存发货（FS）,,,,,WK17,2027/01/18,是,
+WK25,WK17,2027/01/18,KCH-COR-HE,KCH-COR-HE.Q,Chichester Pair of Cooker Hood Corbels - Shell,奇切斯特炊具罩托撑一对-贝壳白,B,BA,6,430.10,"2,581",库存发货（Stock planning）,,,,,WK17,2027/01/18,是,
+WK25,WK17,2027/01/18,KCHI-DRW-GND-HE,KCHI-DRW-GND-HE.2,Chichester 1490 Grand Chest of Drawers Cabinet - Shell,奇切斯特1490大抽屉柜-贝壳白-DTC,A,AB,2,"3,238.63","6,477",库存发货（Stock planning）,,,,,WK17,2027/01/18,是,
+WK25,WK17,2027/01/18,SUFK-BAS-0520-BIN-DR,SUFK-BAS-0520-BIN-DR.2,Suffolk 520 Single Bin Base Cabinet - Inc Bin - Driftwood,萨福克520独立垃圾桶下柜-包含垃圾桶-浅褐色-加拿大橡木,B,AA,1,"1,516.80","1,517",库存发货（Stock planning）,,,,,WK17,2027/01/18,是,
+WK25,WK17,2027/01/18,SUFK-BAS-1090-DDC-DR,SUFK-BAS-1090-DDC-DR.1,Suffolk 1090 2 Door Base Cabinet - Driftwood,萨福克1090双门底柜-浅褐色-加拿大橡木,B,AA,6,"1,640.80","9,845",库存发货（Stock planning）,,,,,WK17,2027/01/18,是,
+WK25,WK17,2027/01/18,SUFK-END-0520-CTP-DR,SUFK-END-0520-CTP-DR.1,Suffolk Countertop End Panel - Driftwood,萨福克0520案台侧板-浅褐色-加拿大橡木,B,BA,8,147.12,"1,177",库存发货（Stock planning）,,,,,WK17,2027/01/18,是,
+WK25,WK17,2027/01/18,SUFK-FUL-0690-SHR-DR,SUFK-FUL-0690-SHR-DR.1,Suffolk 690 Full Height Shelf Cabinet - Right - Driftwood,萨福克690右隔板高柜-浅褐色-加拿大橡木,B,AA,3,"2,304.02","6,912",库存发货（Stock planning）,,,,,WK17,2027/01/18,是,
+WK25,WK17,2027/01/18,BTN-TAB-230-IN,BTN-TAB-230-IN,Borough 8 Seater Dining Table - Natural Oak,伯勒8人座餐桌-自然橡木色-加拿大橡木,A,AA,6,"2,464.31","14,786",生产,WK13,2026/12/21,28,2027/01/18,WK17,2027/01/18,是,J
+WK25,WK17,2027/01/18,BUC-HOO-2605,BUC-HOO-2605.1,Buckland Cooker Hood,巴克兰2605炊具罩顶柜-加拿大橡木,B,BC,2,"2,489.62","4,979",生产,WK13,2026/12/21,28,2027/01/18,WK17,2027/01/18,是,J
+WK25,WK17,2027/01/18,CHI-BOO-STD-T-HG,CHI-BOO-STD-T-HG.1,Chichester 3ft Original Bookcase Open Rack - Shingle,奇切斯特3尺书架上柜-圆石白,A,BB,1,"1,832.70","1,833",生产,WK11,2026/12/11,24,2027/01/04,WK17,2027/01/18,是,H
+WK25,WK17,2027/01/18,CHI-DRE-4FT-GLS-T-HG-01,CHI-DRE-4FT-GLS-T-HG-01,Chichester 4ft Glazed Rack Dresser Top - Shingle,,A,CC,2,"2,380.20","4,760",生产,WK13,2026/12/25,24,2027/01/18,WK17,2027/01/18,是,J
+WK25,WK17,2027/01/18,CHI-DRE-4OP-T-HG,CHI-DRE-4OP-T-HG.1,Chichester 4ft Open Rack Dresser Top - Shingle,奇切斯特4尺开放式上柜-圆石白,A,CC,4,"1,809.20","7,237",生产,WK13,2026/12/23,24,2027/01/16,WK17,2027/01/18,是,I
+WK25,WK17,2027/01/18,CHI-DRE-OPN-T-HG,CHI-DRE-OPN-T-HG.1,Chichester 5ft Open Rack Dresser Top - Shingle,奇切斯特5尺开放式上柜-圆石白,A,CC,4,"1,987.18","7,949",生产,WK13,2026/12/23,24,2027/01/16,WK17,2027/01/18,是,I
+WK25,WK17,2027/01/18,CHW-BAS-90-2DR-GLS-SN,CHW-BAS-90-2DR-GLS-SN.5,Chawton Single Glazed 2 Door Base Cabinet - Snow,查顿双玻璃门底柜-雪白-加拿大橡木-新,B,BB,9,"1,799.14","16,192",生产,WK13,2026/12/23,24,2027/01/16,WK17,2027/01/18,是,I
+WK25,WK17,2027/01/18,CHW-BAS-90-OPN-SN,CHW-BAS-90-OPN-SN.4,Chawton Open Base Cabinet - Snow,查顿开放式底柜-雪白-加拿大橡木-新,B,AA,9,"1,303.36","11,730",生产,WK11,2026/12/11,24,2027/01/04,WK17,2027/01/18,是,H
+WK25,WK17,2027/01/18,CHW-SID-180-TOP-SN,CHW-SID-180-TOP-SN.1,Chawton Sideboard Top Double - Snow,查顿下柜双柜组合桌面-雪白色,B,CA,1,307.79,308,生产,WK14,2026/12/30,16,2027/01/15,WK17,2027/01/18,是,C
+WK25,WK17,2027/01/18,CHW-SID-90-TOP-SN,CHW-SID-90-TOP-SN.1,Chawton Sideboard Top Single - Snow,查顿下柜桌面-雪白,A,BA,35,207.06,"7,247",生产,WK14,2027/01/01,16,2027/01/17,WK17,2027/01/18,是,D
+WK25,WK17,2027/01/18,CHW-SID-BRD-DRW-90-SN,CHW-SID-BRD-DRW-90-SN.4,Chawton Sideboard Drawer - Snow,查顿抽屉底柜-雪白-加拿大橡木-新,B,AA,7,956.86,"6,698",生产,WK11,2026/12/09,24,2027/01/02,WK17,2027/01/18,是,G
+WK25,WK17,2027/01/18,CHW-TOP-105-OP-SN,CHW-TOP-105-OP-SN.6,Chawton 105 Top Cabinet - Open - Snow,查顿105开放式上柜-雪白-加拿大橡木-新,B,AA,11,"1,511.89","16,631",生产,WK12,2026/12/16,24,2027/01/09,WK17,2027/01/18,是,H
+WK25,WK17,2027/01/18,CHW-TOP-38-GLS-SN,CHW-TOP-38-GLS-SN.5,Chawton 38 Top Cabinet - Glazed - Snow,查顿38镶玻璃上柜-雪白-加拿大橡木-新,B,BB,12,"1,124.78","13,497",生产,WK12,2026/12/18,24,2027/01/11,WK17,2027/01/18,是,I
+WK25,WK17,2027/01/18,CLW-SID-4FT-2DR-IN,CLW-SID-4FT-2DR-IN,Colworth 4ft Sideboard - Natural Oak,,B,CC,13,"2,532.00","32,916",生产,WK13,2026/12/21,28,2027/01/18,WK17,2027/01/18,是,J
+WK25,WK17,2027/01/18,ELI-SOF4-CHLMO-PO,ELI-SOF4-CHLMO-PO.2,Eliza 4 Seater Sofa - Sig Lin Moss - Natural Oak Legs,伊丽莎4人沙发-新经典莫斯-自然橡木色,C,AA,2,"4,708.18","9,416",生产,WK11,2026/12/09,14,2026/12/23,WK17,2027/01/18,是,B
+WK25,WK17,2027/01/18,EVA-SOF2-PO-PO,EVA-SOF2-PO-PO.5,Eva 2 Seater Sofa - Heavyweight Linen Pale Oat - IN Oak Legs,伊娃沙发2-帕莱燕麦-自然橡木色,C,AA,6,"3,733.15","22,399",生产,WK11,2026/12/11,14,2026/12/25,WK17,2027/01/18,是,C
+WK25,WK17,2027/01/18,FRO-CON-150-IN,FRO-CON-150-IN,Frome 150 Rectangular Console Table - Natural Oak,弗罗姆150X46案桌-自然橡木色-加拿大橡木,A,AA,14,"2,490.12","34,862",生产,WK12,2026/12/16,24,2027/01/09,WK17,2027/01/18,是,H
+WK25,WK17,2027/01/18,INT-TAB-SHE-270-NI,INT-TAB-SHE-270-NI,"Sheldrake 4-10 Seater Extending Dining Table, Natural Oak",谢德科110-270餐桌-25mm-自然橡木色- 加拿大橡木,A,AA,2,"4,030.70","8,061",生产,WK13,2026/12/21,28,2027/01/18,WK17,2027/01/18,是,J
+WK25,WK17,2027/01/18,KCB-1D-350-L-HE,KCB-1D-350-L-HE.1,Chichester 350 1 Door Base Cabinet Left - Shell,奇切斯特350单门左底柜-贝壳白,A,AA,2,931.05,"1,862",生产,WK14,2026/12/28,21,2027/01/18,WK17,2027/01/18,是,E
+WK25,WK17,2027/01/18,KCB-CBT-0140-HE,KCB-CBT-0140-HE.1,Chichester 140 Tray & Chopping Block Base Cabinet - Shell,奇切斯特140切菜板底柜-贝壳白-加拿大橡木,A,AA,6,889.94,"5,340",生产,WK14,2026/12/28,21,2027/01/18,WK17,2027/01/18,是,E
+WK25,WK17,2027/01/18,KCB-OVEN-UC-HE,KCB-OVEN-UC-HE.2,Chichester 690 Undercounter Oven Base Cabinet - Shell,奇切斯特690电器底柜-贝壳白,A,AA,12,867.42,"10,409",生产,WK13,2026/12/23,24,2027/01/16,WK17,2027/01/18,是,I
+WK25,WK17,2027/01/18,KCB-TR-190-HE,KCB-TR-190-HE.Q,Chichester 190 Tray Rack Base Cabinet - Shell,奇切斯特190托盘架底柜-贝壳白,A,BA,20,569.44,"11,389",生产,WK14,2026/12/28,21,2027/01/18,WK17,2027/01/18,是,E
+WK25,WK17,2027/01/18,KCH-1450-HE,KCH-1450-HE.1,Chichester 1450 Cooker Hood - Shell,奇切斯特1450炊具罩-贝壳白,B,AA,9,"1,107.80","9,970",生产,WK12,2026/12/18,24,2027/01/11,WK17,2027/01/18,是,I
+WK25,WK17,2027/01/18,LIS-SOF3-COT-LIN-NA-SET-01,LIS-SOF3-COT-LIN-NA-SET-01,Long Island 3 Seater Sofa - Cotton Lin Natural - IN Set,,C,CC,6,"4,079.91","24,479",生产,WK13,2026/12/25,14,2027/01/08,WK17,2027/01/18,是,C
+WK25,WK17,2027/01/18,LIS-SOF4-PO-PK-SET-01,LIS-SOF4-PO-PK-SET-01.4,Long Island 4 Seater Sofa - Heavy Lin Pale Oat - IN Legs Set,长岛4人沙发成套-帕莱燕麦-自然橡木色-01,C,AA,2,"5,203.41","10,407",生产,WK12,2026/12/18,14,2027/01/01,WK17,2027/01/18,是,C
+WK25,WK17,2027/01/18,ORF-ACC-CUT-TRA-INS,ORF-ACC-CUT-TRA-INS.2,Orford Cutlery Tray - Seasoned Oak,奥福德餐具托盘-天空灰橡木-加拿大橡木,A,AA,18,187.89,"3,382",生产,WK14,2026/12/28,21,2027/01/18,WK17,2027/01/18,是,E
+WK25,WK17,2027/01/18,PEM-COR-270-HG,PEM-COR-270-HG,Pembroke 2700 Cornice - Shingle,彭布罗克2700屋檐线-圆石白,B,CB,13,128.16,"1,666",生产,WK13,2026/12/23,14,2027/01/06,WK17,2027/01/18,是,B
+WK25,WK17,2027/01/18,STRAT-TAB-RND-150-IN,STRAT-TAB-RND-150-IN.2,"Stratford 6 Seater Round Dining Table, Natural Oak",斯特拉福德1500圆桌-自然橡木色-加拿大橡木,A,BB,2,"3,282.19","6,564",生产,WK12,2026/12/16,28,2027/01/13,WK17,2027/01/18,是,J
+WK25,WK17,2027/01/18,SUFK-BAS-1090-DDC-DR,SUFK-BAS-1090-DDC-DR.1,Suffolk 1090 2 Door Base Cabinet - Driftwood,萨福克1090双门底柜-浅褐色-加拿大橡木,B,AA,4,"1,640.80","6,563",生产,WK14,2026/12/28,21,2027/01/18,WK17,2027/01/18,是,E
+WK25,WK17,2027/01/18,THO-CHA-ARM-BRNDL-PO,THO-CHA-ARM-BRNDL-PO,Theo Armchair - Tan Leather - Natural Oak Legs,西奥包布椅子-新款复古深棕色牛皮-自然橡木色-新款,C,AA,3,"1,560.96","4,683",生产,WK12,2026/12/16,14,2026/12/30,WK17,2027/01/18,是,B
+WK25,WK17,2027/01/18,WYC-TAB-110-IN,WYC-TAB-110-IN.3,"Wycombe 4 Seater Round Dining Table, Wooden Top",威科姆1100圆形餐桌-橡木桌面-加拿大橡木,A,AB,4,"1,947.18","7,789",生产,WK13,2026/12/25,24,2027/01/18,WK17,2027/01/18,是,J
+WK26,WK18,2027/01/25,BUC-COR-300,BUC-COR-300.Q,Buckland Cooker Hood Corbels 300 - Set of 2,巴克兰300炊具罩左右脚柜,B,CB,6,841.60,"5,050",库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,CHI-CHP-81X54-TW,CHI-CHP-81X54-TW.2,Chichester End Grain Chopping Block - Top,奇切斯特切菜板底柜上部-加拿大橡木,A,CC,2,"1,128.02","2,256",库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,CHIK-FHWM-725-R-02,CHIK-FHWM-725-R-02,Chichester 725 Full Height Washing Machine Cabinet 60/40 - R,,B,BC,3,"2,427.94","7,284",库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,HEN-BAS-01L-PK-CO,HEN-BAS-01L-PK-CO,Henley 540 Blind Corner Base Cabinet - Left,亨利540盲角左底柜-白橡贴皮-加拿大橡木,B,CC,5,"1,977.44","9,887",库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,HEN-BAS-01R-PK-CO,HEN-BAS-01R-PK-CO,Henley 540 Blind Corner Base Cabinet - Right,亨利540盲角右底柜-白橡贴皮-加拿大橡木,B,CC,1,"1,977.44","1,977",库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,HEN-BAS-04-SN-CO,HEN-BAS-04-SN-CO,Henley 725 Appliance Doors - Snow,亨利725电器门-喷漆-雪白-加拿大橡木,B,CC,1,667.14,667,库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,HEN-BAS-08-PK-CO,HEN-BAS-08-PK-CO,Henley 600 Fridge Fascia Base Cabinet,亨利600冰箱框底柜-白橡贴皮-加拿大橡木,B,CC,1,558.87,559,库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,HEN-BAS-09-PK-CO,HEN-BAS-09-PK-CO,Henley 265 Pull Out Base Cabinet,亨利265推拉式底柜-白橡贴皮-加拿大橡木,B,BA,1,"1,396.30","1,396",库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,HEN-BAS-15-PK-CO,HEN-BAS-15-PK-CO,Henley Island Leg Pair,亨利独立柱一对-白橡贴皮-加拿大橡木,B,AC,1,340.57,341,库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,HEN-BCB-02-CHO-BLO-CO,HEN-BCB-02-CHO-BLO-CO,Henley 210 Base Double Chopping Block - Chopping Block,亨利210白橡切菜板,B,CC,4,194.49,778,库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,HEN-BCB-02-CHO-TRAY-CO,HEN-BCB-02-CHO-TRAY-CO,Henley 210 Base Double Chopping Block - Tray,亨利210托盘-加拿大橡木,B,CC,3,140.03,420,库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,HEN-BCB-140-CHO-BLO-CO,HEN-BCB-140-CHO-BLO-CO,Henley 140 Base Double Chopping Block - Chopping Block,亨利140白橡切菜板-菜板,B,CC,3,124.57,374,库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,HEN-BSC-01-PK-CO-NF,HEN-BSC-01-PK-CO-NF,Henley 690 Single Sink Base Cabinet - No Fascia,亨利690单门水槽底柜-白橡贴皮-加拿大橡木-无装饰板,B,CC,1,"1,627.42","1,627",库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,HEN-FHC-05-PK-CO,HEN-FHC-05-PK-CO,Henley 690 Full Height Single Appliance Cabinet,亨利690单电器高柜-白橡贴皮-加拿大橡木,B,CC,3,"3,581.32","10,744",库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,HEN-FHC-06-PK-CO,HEN-FHC-06-PK-CO,Henley 690 Full Height Double Appliance Cabinet,亨利690双电器高柜-白橡贴皮-加拿大橡木,B,BC,1,"3,515.00","3,515",库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,HEN-FHC-07R-SN-CO,HEN-FHC-07R-SN-CO,Henley 400 Curved Full Height Larder Cabinet - Right - Snow,亨利400弧形食品橱右高柜-喷漆-雪白-加拿大橡木,B,CC,2,"2,883.38","5,767",库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,HEN-MOU-05-PK-CO,HEN-MOU-05-PK-CO,Henley 2600 Kick Board,亨利2600踢板-加拿大橡木,B,CC,7,191.93,"1,344",库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,HEN-MOU-06-PK-CO,HEN-MOU-06-PK-CO,Henley 2600 Traditional Skirting Moulding,亨利2600裙板-加拿大橡木,B,CC,1,100.46,100,库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,HEN-PAN-05-PK-02-CO,HEN-PAN-05-PK-02-CO,Henley Base End Panel - set of 2,亨利620底柜侧板-白橡贴皮-一套两个-加拿大橡木,B,BB,4,370.00,"1,480",库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,HEN-PAN-06-PK-CO,HEN-PAN-06-PK-CO,Henley Full Height End Panel,亨利720高柜侧板-白橡贴皮-加拿大橡木,B,BA,5,446.54,"2,233",库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,HEN-PAN-07-PK-02-CO,HEN-PAN-07-PK-02-CO,Henley Wall End Panel - set of 2,亨利360墙侧板-白橡贴皮-一套两个-加拿大橡木,B,CC,4,222.50,890,库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,HEN-PAN-08-PK-CO,HEN-PAN-08-PK-CO,Henley Full Height Filler Panel,亨利100高柜填充板-白橡贴皮-加拿大橡木,B,CB,5,171.50,858,库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,HEN-WDD-02L-PK-CO,HEN-WDD-02L-PK-CO,Henley 600 Solid Wall Cabinet - Left,亨利600左壁柜-白橡贴皮-加拿大橡木,B,CC,4,"1,198.66","4,795",库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,HEN-WDD-02R-PK-CO,HEN-WDD-02R-PK-CO,Henley 600 Wall Cabinet - Right,亨利600右壁柜-白橡贴皮-加拿大橡木,B,CC,2,"1,198.66","2,397",库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,KCB-FSP-0200-HE,KCB-FSP-0200-HE,Chichester Full Height Support Panel - Shell,奇切斯特200高柜支架面板-贝壳白,B,BA,1,186.65,187,库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,KCC-OR-900-HE,KCC-OR-900-HE.Q,Chichester 900 Countertop Open Rack Cabinet - Shell,奇切斯特900开放式柜台上柜-贝壳白,B,BA,3,"1,193.06","3,579",库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,KCF-BRI-HE,KCF-BRI-HE.2,Chichester 990 Bridge Link Cabinet - Shell,奇切斯特990冰箱桥柜-贝壳白,B,BB,6,904.27,"5,426",库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,KCT-1DG-690-HE,KCT-1DG-690-HE.2,Chichester 690 Glazed Top Box Cabinet - Shell,奇切斯特690玻璃顶盒柜-贝壳白,B,CB,3,691.60,"2,075",库存发货（FS）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,KCT-2DG-900-FG-HE,KCT-2DG-900-FG-HE,Chichester 900 Fluted Glass Top Box Cabinet,奇切斯特900长虹玻璃门顶柜-贝壳白,B,CC,4,842.20,"3,369",库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,KCWM-1DS-450-L-HE,KCWM-1DS-450-L-HE.1,Chichester 450 1 Door Wall Cabinet Left - Shell,奇切斯特450单门左壁柜-贝壳白,B,BB,5,766.65,"3,833",库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,KCWM-1DS-550-L-HE,KCWM-1DS-550-L-HE.1,Chichester 550 1 Door Wall Cabinet Left - Shell,奇切斯特550单门左壁柜-贝壳白,B,BA,3,836.41,"2,509",库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,KCWM-2DG-855-FG-HE,KCWM-2DG-855-FG-HE,Chichester 855 2 Door Fluted Glass Wall Cabinet,奇切斯特855双门长虹玻璃壁柜-贝壳白,A,CC,3,"1,363.66","4,091",库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,ORF-ACC-MID-DIV-IS,ORF-ACC-MID-DIV-IS.2,Orford Mid Divider with allan key - Seasoned Oak,奥福德中间隔断-加拿大橡木,A,BA,10,94.00,940,库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,ORF-ACC-TRA-09-IS,ORF-ACC-TRA-09-IS.2,Orford Tray - 9 - Seasoned Oak,奥福德90托盘-天空灰橡木-加拿大橡木,A,CB,5,153.04,765,库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,SUFK-BAS-0400-CBL-DR,SUFK-BAS-0400-CBL-DR.1,Suffolk 400 Curved Base Cabinet - Left - Driftwood,萨福克400弧形左底柜-浅褐色-加拿大橡木,B,BB,1,"1,361.30","1,361",库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,SUFK-BAS-0600-FRI-DR,SUFK-BAS-0600-FRI-DR.1,Suffolk 600 Undercounter Fridge Fascia - Driftwood,萨福克600冰箱框-浅褐色-加拿大橡木,B,BA,1,444.98,445,库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,SUFK-WAL-0450-SGL-DR,SUFK-WAL-0450-SGL-DR.2,Suffolk 450 1 Door Glazed Wall Cabinet - Left - Driftwood,萨福克450单门镶玻璃左壁柜-浅褐色-加拿大橡木,B,CC,2,"1,063.46","2,127",库存发货（Stock planning）,,,,,WK18,2027/01/25,是,
+WK26,WK18,2027/01/25,AML-HEA-135-SIGCA,AML-HEA-135-SIGCA,Amelie Headboard Double- Signature Linen Calico,,C,CC,2,944.29,"1,889",生产,WK13,2026/12/23,14,2027/01/06,WK18,2027/01/25,是,B
+WK26,WK18,2027/01/25,AML-HEA-150-SIGCA,AML-HEA-150-SIGCA,Amelie Headboard King - Signature Linen Calico,,C,CC,6,"1,005.32","6,032",生产,WK13,2026/12/25,14,2027/01/08,WK18,2027/01/25,是,C
+WK26,WK18,2027/01/25,BOU-PAN-IN,BOU-PAN-IN,Borough Pantry - Natural Oak,伯勒储物柜-自然橡木色,B,AB,1,"7,882.14","7,882",生产,WK11,2026/12/07,28,2027/01/04,WK18,2027/01/25,是,H
+WK26,WK18,2027/01/25,BUC-COR-300,BUC-COR-300.Q,Buckland Cooker Hood Corbels 300 - Set of 2,巴克兰300炊具罩左右脚柜,B,CB,3,841.60,"2,525",生产,WK13,2026/12/23,28,2027/01/20,WK18,2027/01/25,是,K
+WK26,WK18,2027/01/25,CEO-SWIV-CHA-BOU-ECRU,CEO-SWIV-CHA-BOU-ECRU,Cleo Swivel Chair- Boucle Ecru,克利奥旋转椅-不防火毛圈布-米白色,C,AA,13,"1,892.83","24,607",生产,WK12,2026/12/14,14,2026/12/28,WK18,2027/01/25,是,A
+WK26,WK18,2027/01/25,CHI-CHP-81X54-B-HE,CHI-CHP-81X54-B-HE.1,Chichester Chopping Block Base 81 x 54cm - Shell,奇切斯特切菜板底柜底部-贝壳白-DTC,A,CC,4,"1,229.42","4,918",生产,WK14,2026/12/30,24,2027/01/23,WK18,2027/01/25,是,I
+WK26,WK18,2027/01/25,CHI-CHP-81X54-TW,CHI-CHP-81X54-TW.2,Chichester End Grain Chopping Block - Top,奇切斯特切菜板底柜上部-加拿大橡木,A,CC,2,"1,128.02","2,256",生产,WK14,2027/01/01,21,2027/01/22,WK18,2027/01/25,是,H
+WK26,WK18,2027/01/25,CHI-DOO-MOU-SET-HE,CHI-DOO-MOU-SET-HE.Q,Chichester Door Mouldings (Set of 4x1m) - Shell,奇切斯特门装饰条一套,A,CB,21,51.87,"1,089",生产,WK14,2026/12/30,14,2027/01/13,WK18,2027/01/25,是,B
+WK26,WK18,2027/01/25,CHIB-HB-090L-HE,CHIB-HB-090L-HE.1,Chichester 90 Single Wooden Headboard - Shell,奇切斯特90矮床尾实木床头-贝壳白,A,BA,7,854.20,"5,979",生产,WK14,2026/12/30,21,2027/01/20,WK18,2027/01/25,是,F
+WK26,WK18,2027/01/25,CHIK-FHWM-725-R-02,CHIK-FHWM-725-R-02,Chichester 725 Full Height Washing Machine Cabinet 60/40 - R,,B,BC,1,"2,427.94","2,428",生产,WK14,2026/12/28,28,2027/01/25,WK18,2027/01/25,是,J
+WK26,WK18,2027/01/25,CHLK-ISL-CTP-1200-IN,CHLK-ISL-CTP-1200-IN,Charlecote 1200 Rectangular Island Counter Top - Natural Oak,查莱格特1200岛柜桌面-自然橡木,B,CC,4,"1,295.78","5,183",生产,WK14,2026/12/30,16,2027/01/15,WK18,2027/01/25,是,C
+WK26,WK18,2027/01/25,CRL-HEA-135-SIGAF,CRL-HEA-135-SIGAF,Coraline Headboard Double - Signature Linen Saffron,,C,CC,4,942.55,"3,770",生产,WK14,2027/01/01,14,2027/01/15,WK18,2027/01/25,是,C
+WK26,WK18,2027/01/25,FRO-CON-150-WBO,FRO-CON-150-WBO,Frome 150 Rectangular Console Table - Warm Black Oak,弗罗姆150X46案桌-暖黑色-加拿大橡木,A,AA,20,"2,604.29","52,086",生产,WK14,2026/12/28,28,2027/01/25,WK18,2027/01/25,是,J
+WK26,WK18,2027/01/25,HEN-BLA-BOX-120,HEN-BLA-BOX-120.3,Henley Wide Storage Box,亨利宽地毯收纳柜-120-加拿大橡木,A,AA,1,"1,398.50","1,399",生产,WK14,2026/12/30,21,2027/01/20,WK18,2027/01/25,是,F
+WK26,WK18,2027/01/25,HEN-COR-05-PK-CO,HEN-COR-05-PK-CO.1,Henley 2700 Contemporary Cornice,亨利2700现代屋檐线-加拿大橡木,B,CB,17,263.86,"4,486",生产,WK13,2026/12/23,14,2027/01/06,WK18,2027/01/25,是,B
+WK26,WK18,2027/01/25,HEN-MOU-05-PK-CO,HEN-MOU-05-PK-CO,Henley 2600 Kick Board,亨利2600踢板-加拿大橡木,B,CC,1,191.93,192,生产,WK13,2026/12/25,14,2027/01/08,WK18,2027/01/25,是,C
+WK26,WK18,2027/01/25,HEN-PAN-06-PK-CO,HEN-PAN-06-PK-CO,Henley Full Height End Panel,亨利720高柜侧板-白橡贴皮-加拿大橡木,B,BA,1,446.54,447,生产,WK12,2026/12/18,14,2027/01/01,WK18,2027/01/25,是,C
+WK26,WK18,2027/01/25,HEN-WDD-02L-PK-CO,HEN-WDD-02L-PK-CO,Henley 600 Solid Wall Cabinet - Left,亨利600左壁柜-白橡贴皮-加拿大橡木,B,CC,1,"1,198.66","1,199",生产,WK14,2027/01/01,24,2027/01/25,WK18,2027/01/25,是,J
+WK26,WK18,2027/01/25,HEND-CON-005,HEND-CON-005.7,Henley 130 Rectangular Console Table - Oak,亨利白橡案桌-加拿大橡木,A,AA,1,"2,117.03","2,117",生产,WK14,2027/01/01,24,2027/01/25,WK18,2027/01/25,是,J
+WK26,WK18,2027/01/25,HEND-SID-006,HEND-SID-006.7,Henley 3ft Oak Sideboard,亨利3尺下柜-加拿大橡木,A,AB,5,"2,504.53","12,523",生产,WK14,2026/12/30,24,2027/01/23,WK18,2027/01/25,是,I
+WK26,WK18,2027/01/25,HEND-WIN-019,HEND-WIN-019.6,Henley 4ft Wine Rack / Bookcase - Oak,亨利4尺酒柜-加拿大橡木,B,AA,2,"2,266.50","4,533",生产,WK14,2026/12/30,24,2027/01/23,WK18,2027/01/25,是,I
+WK26,WK18,2027/01/25,HOL-DRE-5FT-2DR-B-IN,HOL-DRE-5FT-2DR-B-IN.2,Holborn 5ft Sideboard - Natural,霍尔本5尺对角下柜-自然色-加拿大橡木,B,AA,17,"3,372.22","57,328",生产,WK14,2026/12/28,28,2027/01/25,WK18,2027/01/25,是,J
+WK26,WK18,2027/01/25,KCB-APP-DOO-0725-HE,KCB-APP-DOO-0725-HE.Q,Chichester 725 Appliance Doors - Shell,奇切斯特725器具门-贝壳白,B,CA,5,609.01,"3,045",生产,WK14,2026/12/30,21,2027/01/20,WK18,2027/01/25,是,F
+WK26,WK18,2027/01/25,KCB-DWI-450-HE,KCB-DWI-450-HE.Q,Chichester 450 Integrated Appliance Fascia - Shell,奇切斯特450器具面板-贝壳白,B,CB,33,386.40,"12,751",生产,WK13,2026/12/23,21,2027/01/13,WK18,2027/01/25,是,F
+WK26,WK18,2027/01/25,KCC-2DG-850-HE,KCC-2DG-850-HE.2,Chichester 850 Countertop Glazed Cabinet - Shell,奇切斯特850玻璃柜台上柜-贝壳白,B,AA,8,"1,629.62","13,037",生产,WK12,2026/12/16,21,2027/01/06,WK18,2027/01/25,是,E
+WK26,WK18,2027/01/25,KCC-2DS-850SR-HE,KCC-2DS-850SR-HE.1,Chichester 850 Countertop Spice Rack Cabinet - Shell,奇切斯特850调料架柜台上柜-贝壳白,B,BB,2,"1,825.96","3,652",生产,WK12,2026/12/18,21,2027/01/08,WK18,2027/01/25,是,G
+WK26,WK18,2027/01/25,KCF-BRI-HE,KCF-BRI-HE.2,Chichester 990 Bridge Link Cabinet - Shell,奇切斯特990冰箱桥柜-贝壳白,B,BB,7,904.27,"6,330",生产,WK12,2026/12/16,21,2027/01/06,WK18,2027/01/25,是,E
+WK26,WK18,2027/01/25,KCT-2DG-900-FG-HE,KCT-2DG-900-FG-HE,Chichester 900 Fluted Glass Top Box Cabinet,奇切斯特900长虹玻璃门顶柜-贝壳白,B,CC,3,842.20,"2,527",生产,WK14,2027/01/01,24,2027/01/25,WK18,2027/01/25,是,J
+WK26,WK18,2027/01/25,KCWL-OR-0850-HE,KCWL-OR-0850-HE.Q,Chichester 850 Open Rack Wall Cabinet - Shell,奇切斯特850开放式壁柜-贝壳白,B,CB,10,750.25,"7,503",生产,WK13,2026/12/23,21,2027/01/13,WK18,2027/01/25,是,F
+WK26,WK18,2027/01/25,KCWM-1DS-325-L-HE,KCWM-1DS-325-L-HE.1,Chichester 325 1 Door Wall Cabinet Left - Shell,奇切斯特325单门左壁柜-贝壳白,B,CC,6,686.45,"4,119",生产,WK14,2026/12/30,21,2027/01/20,WK18,2027/01/25,是,F
+WK26,WK18,2027/01/25,KCWM-1DS-325-R-HE,KCWM-1DS-325-R-HE.2,Chichester 325 1 Door Wall Cabinet Right - Shell,奇切斯特325单门右壁柜-贝壳白-加拿大橡木,B,CC,6,686.45,"4,119",生产,WK13,2026/12/25,21,2027/01/15,WK18,2027/01/25,是,H
+WK26,WK18,2027/01/25,KCWM-1DS-450-R-HE,KCWM-1DS-450-R-HE.1,Chichester 450 1 Door Wall Cabinet Right - Shell,奇切斯特450单门右壁柜-贝壳白,B,CB,1,766.65,767,生产,WK13,2026/12/23,21,2027/01/13,WK18,2027/01/25,是,F
+WK26,WK18,2027/01/25,LIS-CHA-LOV-HUGPO-SET-01,LIS-CHA-LOV-HUGPO-SET-01.5,Long Island Loveseat - Heavy Lin Pale Oat - IN Oak Legs Set,长岛情侣沙发成套-帕莱燕麦-自然橡木色-01,C,AA,3,"2,672.49","8,017",生产,WK13,2026/12/23,14,2027/01/06,WK18,2027/01/25,是,B
+WK26,WK18,2027/01/25,MAT-CHA-ARM-HUGPO-PO,MAT-CHA-ARM-HUGPO-PO.4,Matilda Armchair - Heavyweight Linen Pale Oat - IN Oak Legs,玛蒂尔达扶手椅--帕莱燕麦--自然橡木色,C,AA,21,"1,295.00","27,195",生产,WK14,2026/12/30,14,2027/01/13,WK18,2027/01/25,是,B
+WK26,WK18,2027/01/25,OPH-STO-LRG-FLAG-014,OPH-STO-LRG-FLAG-014,Ophelia Footstool Large - Fermoie Flag Natural 014,奥菲莉亚大号脚凳-加拿大橡木-印花亚麻布 旗子014（含坐垫）- 自然橡木色,A,AA,1,"3,111.93","3,112",生产,WK14,2026/12/30,14,2027/01/13,WK18,2027/01/25,是,B
+WK26,WK18,2027/01/25,ORF-ACC-KNI-BLK-IS,ORF-ACC-KNI-BLK-IS.2,Orford Knife Block - Seasoned Oak,奥福德刀具架-天空灰橡木-加拿大橡木,A,CA,11,73.25,806,生产,WK14,2027/01/01,14,2027/01/15,WK18,2027/01/25,是,C
+WK26,WK18,2027/01/25,ORF-ACC-SPI-05-IS,ORF-ACC-SPI-05-IS.2,Orford Spice Tray Single - Seasoned Oak,奥福德调料内格-天空灰橡木-加拿大橡木,A,BB,47,129.70,"6,096",生产,WK14,2027/01/01,16,2027/01/17,WK18,2027/01/25,是,D
+WK26,WK18,2027/01/25,ORF-ACC-TRA-09-IS,ORF-ACC-TRA-09-IS.2,Orford Tray - 9 - Seasoned Oak,奥福德90托盘-天空灰橡木-加拿大橡木,A,CB,6,153.04,918,生产,WK14,2027/01/01,21,2027/01/22,WK18,2027/01/25,是,H
+WK26,WK18,2027/01/25,ORF-ACC-TRA-11-IS,ORF-ACC-TRA-11-IS.2,Orford Tray  - 11 - Seasoned Oak,奥福德110托盘-天空灰橡木-加拿大橡木,A,CB,26,115.22,"2,996",生产,WK14,2026/12/30,21,2027/01/20,WK18,2027/01/25,是,F
+WK26,WK18,2027/01/25,ORF-ACC-TRA-13-IS,ORF-ACC-TRA-13-IS.2,Orford Tray - 13 - Seasoned Oak,奥福德130托盘-天空灰橡木-加拿大橡木,A,BA,19,124.17,"2,359",生产,WK14,2026/12/30,21,2027/01/20,WK18,2027/01/25,是,F
+WK26,WK18,2027/01/25,ORF-ACC-TRA-15-IS,ORF-ACC-TRA-15-IS.2,Orford Tray - 15 - Seasoned Oak,奥福德150托盘-天空灰橡木-加拿大橡木,A,BA,48,139.72,"6,707",生产,WK14,2027/01/01,21,2027/01/22,WK18,2027/01/25,是,H
+WK26,WK18,2027/01/25,PEM-SHE-400-2PC,PEM-SHE-400-2PC.3,Pembroke 400mm Shelves - Set of 2 - Seasoned Oak,彭布罗克400架子-隔板和隔板撑-套2-银桦和贝壳白-加拿大橡木,B,CC,2,154.70,309,生产,WK13,2026/12/25,14,2027/01/08,WK18,2027/01/25,是,C
+WK26,WK18,2027/01/25,PEM-SHE-650-2PC,PEM-SHE-650-2PC.3,Pembroke 650mm Shelves - Set of 2 - Seasoned Oak,彭布罗克650架子-隔板和隔板撑-套2-银桦色和贝壳白-加拿大橡木,B,CC,2,232.16,464,生产,WK13,2026/12/25,14,2027/01/08,WK18,2027/01/25,是,C
+WK26,WK18,2027/01/25,PEM-SHE-825-2PC,PEM-SHE-825-2PC.3,Pembroke 825mm Shelves - Set of 2 - Seasoned Oak,彭布罗克825架子-隔板和隔板撑-套2-银桦和贝壳白-加拿大橡木,B,CB,8,285.35,"2,283",生产,WK14,2026/12/30,14,2027/01/13,WK18,2027/01/25,是,B
+WK26,WK18,2027/01/25,RAT-SIN-DRW-DIV-QU,RAT-SIN-DRW-DIV-QU.1,Ratcliff Drawer Divider - Quartz,,X,CA,30,36.84,"1,105",生产,WK11,2026/12/07,30,2027/01/06,WK18,2027/01/25,是,I
+WK26,WK18,2027/01/25,SHEP-CAB-GLS-L-LI,SHEP-CAB-GLS-L-LI.4,Shepton Glazed Cabinet - Lily - Left Opening,谢普顿玻璃高柜-丽丽-左开门,A,BC,10,"3,205.03","32,050",生产,WK14,2027/01/01,24,2027/01/25,WK18,2027/01/25,是,J
+WK26,WK18,2027/01/25,SHEP-CAB-GLS-R-LI,SHEP-CAB-GLS-R-LI.4,Shepton Glazed Cabinet - Lily - Right Opening,谢普顿玻璃高柜-丽丽-右开门,A,AA,10,"3,205.03","32,050",生产,WK14,2026/12/30,24,2027/01/23,WK18,2027/01/25,是,I
+WK26,WK18,2027/01/25,SUF-SID-4FT-IS,SUF-SID-4FT-IS,Suffolk Sideboard - Seasoned Oak 4ft,萨福克4尺下柜-天空灰橡木-加拿大橡木,B,BC,4,"3,304.03","13,216",生产,WK13,2026/12/25,28,2027/01/22,WK18,2027/01/25,是,L
+WK26,WK18,2027/01/25,SUF-SID-4FT-SI-01,SUF-SID-4FT-SI-01,Suffolk 4ft Sideboard - Silver Birch,,B,CC,4,"2,959.87","11,839",生产,WK14,2027/01/01,21,2027/01/22,WK18,2027/01/25,是,H
+WK26,WK18,2027/01/25,SUFK-BAS-0220-CBT-DR,SUFK-BAS-0220-CBT-DR.3,Suffolk 220 Chopping Block and Tray Base Cabinet - Driftwood,萨福克220切菜板和托盘底柜-浅褐色-加拿大橡木,B,BB,6,"1,271.88","7,631",生产,WK12,2026/12/18,21,2027/01/08,WK18,2027/01/25,是,G
+WK26,WK18,2027/01/25,SUFK-BAS-0280-WIN-DR,SUFK-BAS-0280-WIN-DR.3,Suffolk 280 Double Wine Rack Base Cabinet - Driftwood,萨福克280酒架底柜-浅褐色-加拿大橡木,B,CC,4,980.50,"3,922",生产,WK13,2026/12/25,21,2027/01/15,WK18,2027/01/25,是,H
+WK26,WK18,2027/01/25,SUFK-BAS-0600-WAS-DR,SUFK-BAS-0600-WAS-DR.1,Suffolk 600 Washing Machine Fascia - Driftwood,萨福克600洗衣机框-浅褐色-加拿大橡木,B,CB,5,565.60,"2,828",生产,WK14,2026/12/30,21,2027/01/20,WK18,2027/01/25,是,F
+WK26,WK18,2027/01/25,SUFK-BAS-CBT-500-IS,SUFK-BAS-CBT-500-IS.1,Suffolk Chopping Block Base Cabinet - 500 Tray - IS,萨福克托盘-45*50*3.8cm-天空灰橡木-加拿大橡木,A,CC,1,191.29,191,生产,WK14,2027/01/01,21,2027/01/22,WK18,2027/01/25,是,H
+WK26,WK18,2027/01/25,SUFK-WAL-0450-SGR-DR,SUFK-WAL-0450-SGR-DR.2,Suffolk 450 1 Door Glazed Wall Cabinet - Right - Driftwood,萨福克450单门镶玻璃右壁柜-浅褐色-加拿大橡木,B,CC,3,"1,063.46","3,190",生产,WK14,2026/12/30,21,2027/01/20,WK18,2027/01/25,是,F
+WK26,WK18,2027/01/25,SUFK-WAT-0920-DDG-FG-DR,SUFK-WAT-0920-DDG-FG-DR.1,Suffolk 920 Tall 2 Door Fluted Glass Wall Cabinet,萨福克920两门长虹玻璃壁柜-浅褐色-加拿大橡木,B,CC,4,"1,649.44","6,598",生产,WK14,2027/01/01,24,2027/01/25,WK18,2027/01/25,是,J
+WK26,WK18,2027/01/25,WAL-BED-HEA-180-COT-LIN-FF,WAL-BED-HEA-180-COT-LIN-FF,Walton Four Poster Headboard - SK - Cotton Linen Dark Fig,,A,CC,1,712.21,712,生产,WK14,2027/01/01,14,2027/01/15,WK18,2027/01/25,是,C
+WK26,WK18,2027/01/25,WARD-BED-HEA-150-COTLIN-NA,WARD-BED-HEA-150-COTLIN-NA,Wardley Four Poster Bed Headboard - King - Cot Lin Natural,,A,CC,8,697.59,"5,581",生产,WK14,2027/01/01,14,2027/01/15,WK18,2027/01/25,是,C
+WK26,WK18,2027/01/25,WARD-BED-HEA-180-COTLIN-NA,WARD-BED-HEA-180-COTLIN-NA,Wardley Four Poster Bed Headboard - Super King - Natural,,A,CC,6,784.93,"4,710",生产,WK14,2027/01/01,14,2027/01/15,WK18,2027/01/25,是,C
+合计,,,,,,,,,"1,686",,"2,019,407",,,,,,,,,
